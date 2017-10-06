@@ -33,7 +33,7 @@ aside {
   display: flex;
   flex-direction: column;
   background-color: #1f2431;
-  width: 300px;
+  width: 400px;
   height: 100vh; }
   aside header {
     padding: 40px 0;
@@ -93,13 +93,16 @@ aside {
   flex-direction: row;
   flex: 1;
   justify-content: space-between;
-  align-items: center; }
-  .top-menu .hamburger-menu {
-    padding: 35px; }
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1); }
 
 .hamburger-menu button {
   border: 0;
   font-size: 24px;
   background-color: white; }
+
+.card {
+  background-color: white;
+  padding: 30px 25px; }
 
 /*# sourceMappingURL=main.css.map */
