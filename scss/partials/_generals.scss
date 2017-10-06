@@ -6,6 +6,8 @@
 
 body {
     overflow: hidden;
+    background-color: #f1f3f6;
+    color: $primaryColor;
 }
 
 ul {
@@ -14,4 +16,5 @@ ul {
 
 a {
     text-decoration: none;
+    color: $primaryColor;
 }
