@@ -1,0 +1,80 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: $primaryColor;
+    width: 300px;
+    height: 100vh;
+
+    header {
+        padding: 40px 0;
+        text-align: center;
+        align-items: center;
+        flex-shrink: 0;
+
+        h1 {
+            font-size: 32px;
+            color: white;
+            letter-spacing: 3.5px;
+            font-weight: 300;
+        }
+    }
+}
+
+.side-menu {
+    background-color: $navyBlue;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.accordion {
+    padding-top: 50px;
+
+    a {
+        color: $menuText;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .menu-item {
+        padding: 20px 20px 20px 40px;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+}
+
+.sub-accordion-menu {
+    background-color: $primaryColor;
+    padding: 20px 20px 20px 100px;
+}
+
+.menu-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon {
+    &.-aside-icon {
+        padding-right: 35px;
+        font-size: 26px;
+        padding-bottom: 2px;
+    }
+
+    &.-angle-down {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
