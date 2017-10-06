@@ -17,6 +17,12 @@ a {
   text-decoration: none;
   color: #1f2431; }
 
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden; }
+
 .row {
   display: flex;
   flex-direction: row; }
@@ -37,6 +43,25 @@ main section {
 
 .search-form input {
   display: none; }
+
+.avatar {
+  position: relative; }
+  .avatar span {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    bottom: 0px;
+    right: 2px; }
+    .avatar span.-online {
+      background-color: #7ed321; }
 
 aside {
   display: flex;
