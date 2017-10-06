@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,500,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,500,600,800,900");
 @import url("https://use.fontawesome.com/dd96799f70.js");
 * {
   box-sizing: border-box;
@@ -105,7 +105,7 @@ aside {
 
 .sub-accordion-menu {
   background-color: #1f2431;
-  padding: 20px 20px 20px 100px; }
+  padding: 20px 20px 20px 105px; }
 
 .menu-label {
   display: flex;
@@ -140,7 +140,8 @@ aside {
 
 .card {
   background-color: white;
-  padding: 30px 25px; }
+  padding: 30px 25px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1); }
 
 .alerts a {
   position: relative; }
@@ -166,5 +167,27 @@ aside {
     background-color: #42299a; }
   .alerts span.pink {
     background-color: #f75d81; }
+
+.content-info {
+  padding-bottom: 40px; }
+  .content-info h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .content-info p {
+    font-size: 18px;
+    font-weight: 600;
+    color: grey; }
+
+.input-fields div {
+  margin-bottom: 20px; }
+.input-fields input {
+  border: 1px solid #D1D1D1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */
