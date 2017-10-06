@@ -13,8 +13,5 @@
 }
 
 .fluid-container {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    flex-basis: 100%;
+    width: 100%;
 }
