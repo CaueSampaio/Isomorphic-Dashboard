@@ -1,0 +1,23 @@
+.avatar {
+    position: relative;
+
+    span {
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        font-size: 14px;
+        color: white;
+        bottom: 0px;
+        right: 2px;
+
+        &.-online {
+            background-color: $green;
+        }
+    }
+}
