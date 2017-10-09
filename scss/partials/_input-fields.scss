@@ -1,15 +1,57 @@
+input {
+        border: 1px solid rgba(226, 226, 226, 0.67);
+        border-radius: 5px;
+        height: 41px;
+        padding: 0 15px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #4d4d4d;
+        margin-right: 10px;
+    }
+
 .input-fields {
     div {
         margin-bottom: 20px;
     }
     
     input {
-        border: 1px solid #D1D1D1;
-        padding: 10px;
-        border-radius: 5px;
+        border-radius: 0;
+    }
+
+    select {
+        border: 1px solid rgba(226, 226, 226, 0.67);
+        border-radius: 0;
+        padding: 9px;
         font-size: 16px;
         font-weight: 600;
         color: #4d4d4d;
         margin-right: 10px;
     }
+}
+
+.input-group {
+    input{
+        margin: 0;
+        margin-right: -5px;
+
+        &:first-child {
+            border-radius: 5px 0 0 5px;
+        }
+         &:last-child {
+            border-radius: 0 5px 5px 0;
+        }
+    }
+
+    select{
+        margin: 0;
+        margin-right: -5px;
+
+        &:first-child {
+            border-radius: 5px 0 0 5px;
+        }
+         &:last-child {
+            border-radius: 0 5px 5px 0;
+        }
+    }
+
 }

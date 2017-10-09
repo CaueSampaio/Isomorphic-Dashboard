@@ -38,6 +38,42 @@ a {
 main section {
   margin: 30px 40px; }
 
+.flex-1 {
+  width: 8.33%; }
+
+.flex-2 {
+  width: 16.666%; }
+
+.flex-3 {
+  width: 25%; }
+
+.flex-4 {
+  width: 33.666%; }
+
+.flex-5 {
+  width: 42.333%; }
+
+.flex-6 {
+  width: 50%; }
+
+.flex-7 {
+  width: 58.3333%; }
+
+.flex-8 {
+  width: 66.6666%; }
+
+.flex-9 {
+  width: 75%; }
+
+.flex-10 {
+  width: 83.333%; }
+
+.flex-11 {
+  width: 91.6666%; }
+
+.flex-12 {
+  width: 100%; }
+
 * {
   font-family: 'Roboto Condensed'; }
 
@@ -179,15 +215,42 @@ aside {
     font-weight: 600;
     color: grey; }
 
-.input-fields div {
-  margin-bottom: 20px; }
-.input-fields input {
-  border: 1px solid #D1D1D1;
-  padding: 10px;
+input {
+  border: 1px solid rgba(226, 226, 226, 0.67);
   border-radius: 5px;
+  height: 41px;
+  padding: 0 15px;
   font-size: 16px;
   font-weight: 600;
   color: #4d4d4d;
   margin-right: 10px; }
+
+.input-fields div {
+  margin-bottom: 20px; }
+.input-fields input {
+  border-radius: 0; }
+.input-fields select {
+  border: 1px solid rgba(226, 226, 226, 0.67);
+  border-radius: 0;
+  padding: 9px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-right: 10px; }
+
+.input-group input {
+  margin: 0;
+  margin-right: -5px; }
+  .input-group input:first-child {
+    border-radius: 5px 0 0 5px; }
+  .input-group input:last-child {
+    border-radius: 0 5px 5px 0; }
+.input-group select {
+  margin: 0;
+  margin-right: -5px; }
+  .input-group select:first-child {
+    border-radius: 5px 0 0 5px; }
+  .input-group select:last-child {
+    border-radius: 0 5px 5px 0; }
 
 /*# sourceMappingURL=main.css.map */
